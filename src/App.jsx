@@ -59,7 +59,7 @@ function App() {
 
 
    const searchProducts =  products.filter(product => (
-      search == "" ? true : (product.category.toLowerCase().trim().includes(search.toLowerCase().trim()))
+      search == "" ? true : (product.name.toLowerCase().trim().includes(search.toLowerCase().trim()))
    ))
       
    
